@@ -1,7 +1,7 @@
 {
   "name": "weather-dashboard",
   "version": "1.0.0",
-  "description": "",
+  "description": "A weather dashboard app that allows users to search for cities and view current and 5-day weather forecasts. Built with Node.js, Express, and OpenWeather API. The app stores search history and retrieves real-time weather data based on city names and coordinates. Deployed on Render.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,12 +19,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "concurrently": "^8.2.2",
     "nodemon": "^3.1.0",
+    "typescript": "^5.7.3",
     "wait-on": "^7.2.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
-    "bootstrap": "^5.3.3"
+    "axios": "^1.7.9",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "uuid": "^11.0.5"
   }
 }
